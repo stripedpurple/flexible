@@ -11,7 +11,7 @@ Flexible uses [sass](https://sass-lang.com) to build the css library. This is do
 
 Flexible uses [dart-sass](https://github.com/sass/dart-sass) to compile style.sass to css.
 
-The dev and build process require that you install dart-sass
+The dev and build process require that you install dart-sass. To install the dart-sass cli, run the following command:
 ```
 npm install -g sass 
 ```
