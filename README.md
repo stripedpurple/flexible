@@ -16,8 +16,8 @@ The dev and build process require that you install dart-sass. To install the dar
 npm install -g sass 
 ```
 
-Then run `npm run dev` to begin developing. There is a test directory that contains a test page. Simply open the `index.html` file.
-Alternatively you can user a webserver to like one of [these](https://gist.github.com/willurd/5720255)
+Then run `npm run dev` to begin developing. There is a test directory that contains a test page. Simply open the `index.html` file in your browser.
+Alternatively you can use a webserver to like one of [these](https://gist.github.com/willurd/5720255)
 
 ## Build
 To build Flexible run the following command
