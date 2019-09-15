@@ -1,10 +1,10 @@
 # Flexible CSS
----
+
 ## Description
 Flexible is a bare bone flexbox row column framework
 
 ## Development
-Flexible is built using [sass](https://sass-lang.com) to build the css library. This is done for several reasons.
+Flexible uses[sass](https://sass-lang.com) to build the css library. This is done for several reasons.
 1. I  am lazy and prefer the the easy syntax of sass
 2. Flexible implements [normalize.css](https://necolas.github.io/normalize.css/) as a base
 3. If, in the future, I decide to add more features to the framework sass make modularity easier
