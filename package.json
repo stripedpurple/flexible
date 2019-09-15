@@ -1,0 +1,30 @@
+{
+  "name": "flexible",
+  "version": "1.0.0",
+  "description": "A barebone flexbox layout framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch -s expanded -I=node_modules/normalize.css/  sass/style.sass test/style/flexible.css",
+    "build": "sass -s compressed -I=node_modules/normalize.css/  sass/style.sass dist/flexible.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viruscmd/flexible.git"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "flex",
+    "flexbox",
+    "css"
+  ],
+  "author": "Austin Barrett (Striped Purple)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viruscmd/flexible/issues"
+  },
+  "homepage": "https://github.com/viruscmd/flexible#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

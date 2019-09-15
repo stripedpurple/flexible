@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexible Test</title>
+    <link rel="stylesheet" href="/style/flexible.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Default Columns</h1>
+        <p>By default columns are equel width.</p>
+        <div class="row">
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+        </div>
+        <h1>Multiline Column Wrapping</h1>
+        <div class="row multiline">
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+            <div class="col"><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div></div>
+        </div>
+
+        <h1>Column Sizing</h1>
+        <p>Columns can be given a size between 1-12</p>
+        <div class="row">
+            <div class="col one"><div>one</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col two"><div>two</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col three"><div>three</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col four"><div>four</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col five"><div>five</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col six"><div>six</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col seven"><div>seven</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col eight"><div>eight</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col nine"><div>nine</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col ten"><div>ten</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col eleven"><div>eleven</div></div>
+            <div class="col auto"><div>auto</div></div>
+        </div>
+        <div class="row">
+            <div class="col twelve"><div>twelve</div></div>
+        </div>
+    </div>
+
+    <style>
+        .col div{
+            background: #f12dc2;
+            padding: .75rem 0;
+            border-radius: 6px;
+            text-align: center;
+            color: white
+        }
+
+        .col.auto div{
+            background: lightgray;
+        }
+    </style>
+</body>
+
+</html>

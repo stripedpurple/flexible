@@ -1,0 +1,72 @@
+@import "../node_modules/normalize.css/normalize"
+
+*
+    box-sizing: border-box
+
+.container
+    width: 100%
+    max-width: 1280px
+    margin: auto    
+
+.row
+    display: flex
+    overflow: auto
+    
+    .col
+        display: block
+        flex-basis: 0
+        flex-grow: 1
+        flex-shrink: 1
+        padding: .75rem
+
+        &.one
+            flex: none
+            width: 100% / 12 * 1 !important
+        
+        &.two
+            flex: none
+            width: 100% / 12 * 2
+        
+        &.three
+            flex: none
+            width: 100% / 12 * 3
+        
+        &.four
+            flex: none
+            width: 100% / 12 * 4
+        
+        &.five
+            flex: none
+            width: 100% / 12 * 5
+        
+        &.six
+            flex: none
+            width: 100% / 12 * 6
+        
+        &.seven
+            flex: none
+            width: 100% / 12 * 7
+        
+        &.eight
+            flex: none
+            width: 100% / 12 * 8
+        
+        &.nine
+            flex: none
+            width: 100% / 12 * 9
+        
+        &.ten
+            flex: none
+            width: 100% / 12 * 10
+        
+        &.eleven
+            flex: none
+            width: 100% / 12 * 11
+        
+        &.twelve
+            flex: none
+            width: 100%
+
+
+    &.multiline
+        flex-wrap: wrap    
